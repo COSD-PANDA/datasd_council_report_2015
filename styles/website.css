@@ -70,7 +70,7 @@ h1 {
   font-weight:bold;
 }
 .book .book-summary ul.summary li a:hover {
-  color: #00c7b2;
+  color: #ffa02f;
 }
 .book .book-summary ul.summary li i.fa-check {
   color: #fcd900;
@@ -85,4 +85,10 @@ h1 {
   color: #0098db;
 }
 
+.book .book-body .page-wrapper .page-inner section.normal .glossary-term {
+  color: #0098db;
+}
 
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #0098db;
+}
