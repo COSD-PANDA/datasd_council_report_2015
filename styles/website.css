@@ -50,7 +50,7 @@ h1 {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-  .col { 
+  .col {
     margin: 1% 0 1% 0%;
   }
 }
@@ -58,3 +58,31 @@ h1 {
 @media only screen and (max-width: 480px) {
   .span_2_of_2, .span_1_of_2 { width: 100%; }
 }
+
+/* Custom SD */
+.book .book-summary {
+  background-color: #0098db;
+}
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li.done>a,
+.book .book-summary ul.summary li span {
+  color: #ffffff;
+  font-weight:bold;
+}
+.book .book-summary ul.summary li a:hover {
+  color: #00c7b2;
+}
+.book .book-summary ul.summary li i.fa-check {
+  color: #fcd900;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1,
+.book .book-body .page-wrapper .page-inner section.normal h2,
+.book .book-body .page-wrapper .page-inner section.normal h3,
+.book .book-body .page-wrapper .page-inner section.normal h4,
+.book .book-body .page-wrapper .page-inner section.normal h5,
+.book .book-body .page-wrapper .page-inner section.normal h6 {
+  color: #0098db;
+}
+
+
